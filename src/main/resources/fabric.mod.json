@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "lifesystemmod",
+  "version": "${version}",
+  "name": "Life System Mod",
+  "description": "A mod that implements a life system with custom features",
+  "authors": ["Mason Blomquist"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.masonblomquist95.lifesystemmod.LifeSystemMod"
+    ]
+  },
+  "minecraft": {
+    "*": {
+      "version": "1.21.11",
+      "ordering": "NONE",
+      "side": "BOTH"
+    }
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11"
+  }
+}

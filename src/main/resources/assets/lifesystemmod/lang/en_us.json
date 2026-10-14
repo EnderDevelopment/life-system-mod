@@ -1,0 +1,7 @@
+{
+  "item.lifesystemmod.example_item": "Example Item",
+  "block.lifesystemmod.example_block": "Example Block",
+  "message.lifesystemmod.lives_left": "You have %s lives left",
+  "message.lifesystemmod.death_banned": "You have been death banned",
+  "command.lifesystemmod.random_life.description": "Randomly gives a life to all players except operators"
+}
